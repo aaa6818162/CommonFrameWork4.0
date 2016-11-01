@@ -1,0 +1,5 @@
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork\obj\Debug\CommonFrameWork.csprojResolveAssemblyReference.cache
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork\bin\Debug\CommonFrameWork.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork\bin\Debug\CommonFrameWork.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork\obj\Debug\CommonFrameWork.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork\obj\Debug\CommonFrameWork.pdb

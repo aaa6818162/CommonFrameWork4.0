@@ -1,0 +1,15 @@
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\CommonFrameWork.Extensions.NHibernate.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\CommonFrameWork.Extensions.NHibernate.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\CommonFrameWork.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\Iesi.Collections.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\NHibernate.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\CommonFrameWork.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\Iesi.Collections.xml
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\NHibernate.xml
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\obj\Debug\CommonFrameWork.Extensions.NHibernate.csprojResolveAssemblyReference.cache
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\obj\Debug\CommonFrameWork.Extensions.NHibernate.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\obj\Debug\CommonFrameWork.Extensions.NHibernate.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\FluentNHibernate.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\FluentNHibernate.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\FluentNHibernate.xml
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate\bin\Debug\HibernatingRhinos.Profiler.Appender.v4.0.dll

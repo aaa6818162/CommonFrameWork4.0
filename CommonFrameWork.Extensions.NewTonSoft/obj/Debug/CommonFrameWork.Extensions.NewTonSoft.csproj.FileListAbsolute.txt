@@ -1,0 +1,9 @@
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NewTonSoft\bin\Debug\CommonFrameWork.Extensions.NewTonSoft.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NewTonSoft\bin\Debug\CommonFrameWork.Extensions.NewTonSoft.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NewTonSoft\bin\Debug\CommonFrameWork.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NewTonSoft\bin\Debug\Newtonsoft.Json.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NewTonSoft\bin\Debug\CommonFrameWork.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NewTonSoft\bin\Debug\Newtonsoft.Json.xml
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NewTonSoft\obj\Debug\CommonFrameWork.Extensions.NewTonSoft.csprojResolveAssemblyReference.cache
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NewTonSoft\obj\Debug\CommonFrameWork.Extensions.NewTonSoft.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NewTonSoft\obj\Debug\CommonFrameWork.Extensions.NewTonSoft.pdb

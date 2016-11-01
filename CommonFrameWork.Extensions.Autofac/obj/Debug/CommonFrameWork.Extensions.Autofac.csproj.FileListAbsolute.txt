@@ -1,0 +1,9 @@
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Autofac\bin\Debug\CommonFrameWork.Extensions.Autofac.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Autofac\bin\Debug\CommonFrameWork.Extensions.Autofac.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Autofac\bin\Debug\Autofac.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Autofac\bin\Debug\CommonFrameWork.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Autofac\bin\Debug\CommonFrameWork.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Autofac\bin\Debug\Autofac.xml
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Autofac\obj\Debug\CommonFrameWork.Extensions.Autofac.csprojResolveAssemblyReference.cache
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Autofac\obj\Debug\CommonFrameWork.Extensions.Autofac.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Autofac\obj\Debug\CommonFrameWork.Extensions.Autofac.pdb

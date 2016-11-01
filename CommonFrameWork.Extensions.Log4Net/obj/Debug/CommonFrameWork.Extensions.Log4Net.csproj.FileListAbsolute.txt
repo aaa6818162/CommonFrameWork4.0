@@ -1,0 +1,9 @@
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Log4Net\bin\Debug\CommonFrameWork.Extensions.Log4Net.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Log4Net\bin\Debug\CommonFrameWork.Extensions.Log4Net.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Log4Net\bin\Debug\CommonFrameWork.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Log4Net\bin\Debug\log4net.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Log4Net\bin\Debug\CommonFrameWork.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Log4Net\bin\Debug\log4net.xml
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Log4Net\obj\Debug\CommonFrameWork.Extensions.Log4Net.csprojResolveAssemblyReference.cache
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Log4Net\obj\Debug\CommonFrameWork.Extensions.Log4Net.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.Log4Net\obj\Debug\CommonFrameWork.Extensions.Log4Net.pdb

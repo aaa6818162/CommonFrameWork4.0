@@ -1,0 +1,9 @@
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate.Test\bin\Debug\CommonFrameWork.Extensions.NHibernate.Test.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate.Test\bin\Debug\CommonFrameWork.Extensions.NHibernate.Test.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate.Test\bin\Debug\CommonFrameWork.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate.Test\bin\Debug\CommonFrameWork.pdb
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate.Test\obj\Debug\CommonFrameWork.Extensions.NHibernate.Test.csprojResolveAssemblyReference.cache
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate.Test\obj\Debug\CommonFrameWork.Extensions.NHibernate.Test.dll
+G:\云端备份\我设计的框架\Project4.0\CommonFrameWork.Extensions.NHibernate.Test\obj\Debug\CommonFrameWork.Extensions.NHibernate.Test.pdb

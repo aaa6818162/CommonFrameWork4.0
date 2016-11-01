@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB0B33AD-6A46-4C9D-BCE0-C3BD5D27D04C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestOrm</RootNamespace>
+    <AssemblyName>TestOrm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.1.2400\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\hibernate.cfg.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonFrameWork.Extensions.Autofac\CommonFrameWork.Extensions.Autofac.csproj">
+      <Project>{d42f731d-a7ef-4e66-9746-b3acbb790951}</Project>
+      <Name>CommonFrameWork.Extensions.Autofac</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonFrameWork.Extensions.Log4Net\CommonFrameWork.Extensions.Log4Net.csproj">
+      <Project>{5dbded95-321c-4b77-95a4-395aabcb8cde}</Project>
+      <Name>CommonFrameWork.Extensions.Log4Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonFrameWork.Extensions.MassTransit\CommonFrameWork.Extensions.MassTransit.csproj">
+      <Project>{2c06b334-b5e0-4231-a335-eb034284e041}</Project>
+      <Name>CommonFrameWork.Extensions.MassTransit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonFrameWork.Extensions.NewTonSoft\CommonFrameWork.Extensions.NewTonSoft.csproj">
+      <Project>{628e7b1a-f325-4d0e-83dc-7b6e2a5fbed7}</Project>
+      <Name>CommonFrameWork.Extensions.NewTonSoft</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonFrameWork.Extensions.NHibernate.Test\CommonFrameWork.Extensions.NHibernate.Test.csproj">
+      <Project>{610cb96d-8232-48dd-b27d-636ff9e74a47}</Project>
+      <Name>CommonFrameWork.Extensions.NHibernate.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonFrameWork.Extensions.NHibernate\CommonFrameWork.Extensions.NHibernate.csproj">
+      <Project>{19d5266e-dcdd-430f-bfbf-d90c5ab4b5bf}</Project>
+      <Name>CommonFrameWork.Extensions.NHibernate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonFrameWork.Test.Common\CommonFrameWork.Test.Common.csproj">
+      <Project>{44893853-b60a-48a7-b891-2aa8cf690c19}</Project>
+      <Name>CommonFrameWork.Test.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonFrameWorkUnitTestProject\CommonFrameWorkUnitTestProject.csproj">
+      <Project>{c2b85005-663a-40cf-8c98-90e371159a8b}</Project>
+      <Name>CommonFrameWorkUnitTestProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonFrameWork\CommonFrameWork.csproj">
+      <Project>{5E9EB7E1-4AE8-413E-9DB1-4E300C355BA0}</Project>
+      <Name>CommonFrameWork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.Domain.Core.Nhibernate\Project.Domain.Core.Nhibernate.csproj">
+      <Project>{203bb2ce-f074-416c-a6d3-ba984c78ab27}</Project>
+      <Name>Project.Domain.Core.Nhibernate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.Domain.Core\Project.Domain.Core.csproj">
+      <Project>{7b93ad6b-59fe-42a6-8b4d-172ddb1965a3}</Project>
+      <Name>Project.Domain.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

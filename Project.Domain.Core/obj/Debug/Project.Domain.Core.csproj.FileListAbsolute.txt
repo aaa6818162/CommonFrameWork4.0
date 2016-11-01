@@ -1,0 +1,7 @@
+G:\云端备份\我设计的框架\Project4.0\Project.Domain.Core\bin\Debug\Project.Domain.Core.dll
+G:\云端备份\我设计的框架\Project4.0\Project.Domain.Core\bin\Debug\Project.Domain.Core.pdb
+G:\云端备份\我设计的框架\Project4.0\Project.Domain.Core\obj\Debug\Project.Domain.Core.dll
+G:\云端备份\我设计的框架\Project4.0\Project.Domain.Core\obj\Debug\Project.Domain.Core.pdb
+G:\云端备份\我设计的框架\Project4.0\Project.Domain.Core\bin\Debug\CommonFrameWork.dll
+G:\云端备份\我设计的框架\Project4.0\Project.Domain.Core\bin\Debug\CommonFrameWork.pdb
+G:\云端备份\我设计的框架\Project4.0\Project.Domain.Core\obj\Debug\Project.Domain.Core.csprojResolveAssemblyReference.cache
