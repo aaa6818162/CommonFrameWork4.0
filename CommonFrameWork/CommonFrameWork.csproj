@@ -42,13 +42,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\AppExtensions.cs" />
     <Compile Include="Application\AppRuntime.cs" />
     <Compile Include="Application\DefaultApp.cs" />
     <Compile Include="Application\DisposableObject.cs" />
     <Compile Include="Application\IApp.cs" />
     <Compile Include="Application\IAutoInitializer.cs" />
+    <Compile Include="Bus\Distributed\DistributedMessageBus.cs" />
+    <Compile Include="Bus\Distributed\IDistributedHandler.cs" />
+    <Compile Include="Bus\Distributed\Model\CQRSIdentity.cs" />
+    <Compile Include="Bus\Distributed\Model\DistributedCommand.cs" />
+    <Compile Include="Bus\Distributed\Model\DistributedEvent.cs" />
+    <Compile Include="Bus\Distributed\Model\DistributedMessage.cs" />
+    <Compile Include="Bus\Distributed\Model\IDistributedMessage.cs" />
+    <Compile Include="Bus\Local\ILocalHandler.cs" />
+    <Compile Include="Bus\Local\LocalMessageBus.cs" />
+    <Compile Include="Bus\Local\Model\ILocalMessage.cs" />
+    <Compile Include="Bus\Local\Model\LocalCommand.cs" />
+    <Compile Include="Bus\Local\Model\LocalEvent.cs" />
+    <Compile Include="Bus\Local\Model\LocalMessage.cs" />
+    <Compile Include="Bus\MessageDispatcher.cs" />
+    <Compile Include="Bus\ICommand.cs" />
+    <Compile Include="Bus\IEvent.cs" />
+    <Compile Include="Bus\IMessage.cs" />
+    <Compile Include="Bus\MessageDispatchModeEnum.cs" />
     <Compile Include="Caching\CacheManager.cs" />
     <Compile Include="Caching\ICacheProvider.cs" />
+    <Compile Include="CommUtils\AsyncUtils.cs" />
     <Compile Include="CommUtils\Utils.cs" />
     <Compile Include="Config\CommonFrameWorkConfig.cs" />
     <Compile Include="Config\DefaultConfig.cs" />

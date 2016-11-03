@@ -42,7 +42,10 @@ namespace CommonFrameWork.Dependency
         #endregion
 
         #region -  Register  -
-
+        public static void RegisterGeneric(Type serviceType,Type implType)
+        {
+            _current.RegisterGeneric(serviceType,implType);
+        }
         public static void Register(Type implType)
         {
             _current.Register(implType);
@@ -97,6 +100,15 @@ namespace CommonFrameWork.Dependency
   //              {
   //                  _current.Register(reg.Service, reg.Implementation);
   //              }
+            }
+        }
+
+
+        public static void RegisterByAssembly(Assembly assembly ,string prefix, string suffix)
+        {
+            if (assembly != null)
+            {
+                _current.Register(assembly, prefix, suffix);
             }
         }
         #endregion

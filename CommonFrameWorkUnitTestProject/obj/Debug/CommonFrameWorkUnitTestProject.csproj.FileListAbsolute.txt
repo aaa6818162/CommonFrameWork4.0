@@ -24,5 +24,3 @@ G:\云端备份\我设计的框架\Project4.0\CommonFrameWorkUnitTestProject\bin
 G:\云端备份\我设计的框架\Project4.0\CommonFrameWorkUnitTestProject\bin\Debug\Newtonsoft.Json.dll
 G:\云端备份\我设计的框架\Project4.0\CommonFrameWorkUnitTestProject\bin\Debug\CommonFrameWork.Extensions.NewTonSoft.pdb
 G:\云端备份\我设计的框架\Project4.0\CommonFrameWorkUnitTestProject\bin\Debug\Newtonsoft.Json.xml
-G:\云端备份\我设计的框架\Project4.0\CommonFrameWorkUnitTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-G:\云端备份\我设计的框架\Project4.0\CommonFrameWorkUnitTestProject\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll

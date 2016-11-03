@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommonFrameWork.Bus.Local.Model;
 
-namespace Project.Domain.Core.Events
+namespace Project.Domain.Core.OrderManager.Events
 {
-    public class GetCustomerEvent
+    public class GetCustomerEvent : LocalEvent
     {
 
     }

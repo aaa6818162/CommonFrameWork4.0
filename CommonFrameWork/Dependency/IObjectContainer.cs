@@ -32,8 +32,9 @@ namespace CommonFrameWork.Dependency
         /// 通过程序集注册 默认注册成接口服务
         /// </summary>
         /// <param name="assembly"></param>
+        /// <param name="prefix"></param>
         /// <param name="suffix">后缀</param>
-        void Register(Assembly assembly, string suffix);
+        void Register(Assembly assembly, string prefix, string suffix);
 
         /// <summary>
         /// 通过程序集注册 默认注册成接口服务
@@ -44,8 +45,14 @@ namespace CommonFrameWork.Dependency
         /// <summary>
         /// 实现
         /// </summary>
-        /// <param name="implType"></param>
-        void Register(Type implType);
+        /// <param name="serviceType"></param>
+        void Register(Type serviceType);
+
+        /// <summary>
+        /// 注册泛型
+        /// </summary>
+        /// <param name="serviceType"></param>
+        void RegisterGeneric(Type serviceType, Type implType);
 
         void Register<TService, TImplementation>()
             where TService : class
@@ -56,8 +63,8 @@ namespace CommonFrameWork.Dependency
         /// </summary>
         /// <param name="parameters"></param>
         void Register<TService, TImplementation>(List<ObjectContainerParameter> parameters)
-           where TService : class
-           where TImplementation : class, TService;
+            where TService : class
+            where TImplementation : class, TService;
 
 
 
@@ -65,7 +72,7 @@ namespace CommonFrameWork.Dependency
             where TService : class;
 
 
-        object Resolve(Type serviceType,  List<ObjectContainerParameter> parameters);
+        object Resolve(Type serviceType, List<ObjectContainerParameter> parameters);
 
     }
 }

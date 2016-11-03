@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using CommonFrameWork.Application;
+using CommonFrameWork.Bus.Local;
 using CommonFrameWork.Dependency;
+using Project.Domain.Core.OrderManager.Services;
 
 namespace Project.Domain.Core
 {
@@ -12,8 +14,10 @@ namespace Project.Domain.Core
         {
             Type type = typeof(AutoInit);
             var nowAssemblie = assemblies.FirstOrDefault(P => P.FullName.StartsWith(type.Assembly.FullName));
-            ObjectContainer.RegisterByAssembly(nowAssemblie);
+            ObjectContainer.RegisterByAssembly(nowAssemblie, "", "EventHandler");
+            ObjectContainer.Register<IOrderDomainService, OrderDomainService>();
 
+          
         }
     }
 }

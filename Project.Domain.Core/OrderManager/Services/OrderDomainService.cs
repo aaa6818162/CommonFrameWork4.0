@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CommonFrameWork.Bus;
+using CommonFrameWork.Bus.Local;
 using CommonFrameWork.Dependency;
 using CommonFrameWork.Domain.Repositories;
+using Project.Domain.Core.OrderManager.Events;
 using Project.Domain.Core.OrderManager.PersistentObject;
 using Project.Domain.Core.OrderManager.Repositories;
 
@@ -39,15 +42,20 @@ namespace Project.Domain.Core.OrderManager.Services
 
         public void Add()
         {
-            _orderMainRepository.Add(new OrderMain() { ID = "6", OrderNo = "2222" });
-            _orderMainRepository2.Add(new OrderMain2() { ID = "6", OrderNo = "2222" });
+            ObjectContainer.Resolve<IMessageDispatcher>().Dispatch(new GetCustomerEvent());
 
-            _repositoryContext.Commit();
-            _repositoryContext.Dispose();
+            //_orderMainRepository.Add(new OrderMain() { ID = "6", OrderNo = "2222" });
+            //_orderMainRepository2.Add(new OrderMain2() { ID = "6", OrderNo = "2222" });
 
-            _orderMainRepository.Add(new OrderMain() { ID = "5", OrderNo = "2222" });
-            _orderMainRepository2.Add(new OrderMain2() { ID = "5", OrderNo = "2222" });
-            _repositoryContext.Commit();
+            //_repositoryContext.Commit();
+            //_repositoryContext.Dispose();
+
+          
+
+
+            //_orderMainRepository.Add(new OrderMain() { ID = "5", OrderNo = "2222" });
+            //_orderMainRepository2.Add(new OrderMain2() { ID = "5", OrderNo = "2222" });
+            //_repositoryContext.Commit();
         }
 
 

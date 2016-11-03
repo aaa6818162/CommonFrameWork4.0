@@ -16,7 +16,6 @@ G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\Project.Domain.C
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\Autofac.dll
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\log4net.dll
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\Newtonsoft.Json.dll
-G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\NHibernate.dll
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\FluentNHibernate.dll
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\Iesi.Collections.dll
@@ -38,7 +37,6 @@ G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\NHibernate.xml
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\FluentNHibernate.pdb
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\FluentNHibernate.xml
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\Iesi.Collections.xml
-G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 G:\云端备份\我设计的框架\Project4.0\TestOrm\obj\Debug\TestOrm.exe
 G:\云端备份\我设计的框架\Project4.0\TestOrm\obj\Debug\TestOrm.pdb
 G:\云端备份\我设计的框架\Project4.0\TestOrm\bin\Debug\Config\hibernate.cfg.xml

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonFrameWork", "CommonFrameWork\CommonFrameWork.csproj", "{5E9EB7E1-4AE8-413E-9DB1-4E300C355BA0}"
 EndProject
@@ -46,6 +46,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Application", "Project.Application\Project.Application.csproj", "{01E9FFBA-2A7C-4273-9AA1-FB6DB0371B27}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Application.ServiceContracts", "Project.Application.ServiceContracts\Project.Application.ServiceContracts.csproj", "{FAFA82A0-CBEA-4631-9485-44180873C6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacTest", "AutoFacTest\AutoFacTest.csproj", "{933A5008-00A5-4A81-B142-9BBF4D6D81C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,10 @@ Global
 		{FAFA82A0-CBEA-4631-9485-44180873C6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAFA82A0-CBEA-4631-9485-44180873C6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAFA82A0-CBEA-4631-9485-44180873C6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933A5008-00A5-4A81-B142-9BBF4D6D81C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933A5008-00A5-4A81-B142-9BBF4D6D81C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933A5008-00A5-4A81-B142-9BBF4D6D81C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933A5008-00A5-4A81-B142-9BBF4D6D81C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,5 +150,6 @@ Global
 		{934CFE86-F944-4305-AF57-6F66627A5997} = {FE6EB919-FFAA-4758-871A-09A437402DF5}
 		{01E9FFBA-2A7C-4273-9AA1-FB6DB0371B27} = {66584EA8-2A4C-4D2C-A04B-6E22C4F0DA7A}
 		{FAFA82A0-CBEA-4631-9485-44180873C6C6} = {66584EA8-2A4C-4D2C-A04B-6E22C4F0DA7A}
+		{933A5008-00A5-4A81-B142-9BBF4D6D81C1} = {FE6EB919-FFAA-4758-871A-09A437402DF5}
 	EndGlobalSection
 EndGlobal

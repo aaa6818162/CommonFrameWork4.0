@@ -16,9 +16,9 @@ namespace CommonFrameWork.Extensions.Autofac
         {
             get
             {
-                if (_IContainer==null)
+                if (_IContainer == null)
                 {
-                    _IContainer =Holder.ContainerBuilder.Build();
+                    _IContainer = Holder.ContainerBuilder.Build();
                 }
 
                 return _IContainer;
@@ -33,7 +33,7 @@ namespace CommonFrameWork.Extensions.Autofac
             get { return Holder.ContainerBuilder; }
         }
 
-         
+
 
         #endregion
 
@@ -45,12 +45,12 @@ namespace CommonFrameWork.Extensions.Autofac
         }
 
 
-        public void Register(Type serviceType, Type implType,List<ObjectContainerParameter> parameters)
+        public void Register(Type serviceType, Type implType, List<ObjectContainerParameter> parameters)
         {
             var autofacparametersList = new List<NamedParameter>();
             parameters.ForEach(p =>
             {
-                autofacparametersList.Add(new NamedParameter(p.Name,p.Value));
+                autofacparametersList.Add(new NamedParameter(p.Name, p.Value));
             });
 
             Holder.ContainerBuilder.RegisterType(implType).As(serviceType).WithParameters(autofacparametersList);
@@ -63,16 +63,40 @@ namespace CommonFrameWork.Extensions.Autofac
         }
 
 
-        public void Register(Assembly assembly,string suffix)
+        public void Register(Assembly assembly, string prefix, string suffix)
         {
-            Holder.ContainerBuilder.RegisterAssemblyTypes(assembly).Where(p =>p.Name.LastIndexOf(suffix, StringComparison.Ordinal)>0).AsImplementedInterfaces();
+            if (!string.IsNullOrWhiteSpace(prefix))
+            {
+              var list=  Holder.ContainerBuilder.RegisterAssemblyTypes(assembly)
+                    .Where(p => p.Name.StartsWith(prefix));
+
+                Holder.ContainerBuilder.RegisterAssemblyTypes(assembly)
+                    .Where(p => p.Name.StartsWith(prefix))
+                    .AsImplementedInterfaces();
+            }
+
+            if (!string.IsNullOrWhiteSpace(suffix))
+            {
+
+                var list = Holder.ContainerBuilder.RegisterAssemblyTypes(assembly).Where(p => p.Name.EndsWith(suffix));
+
+                Holder.ContainerBuilder.RegisterAssemblyTypes(assembly).Where(p => p.Name.EndsWith(suffix)).AsImplementedInterfaces();
+            }
+
         }
 
 
-        public void Register(Type concreteType)
+        public void RegisterGeneric(Type serviceType, Type implType)
         {
-            Holder.ContainerBuilder.RegisterType(concreteType);
+            Holder.ContainerBuilder.RegisterGeneric(implType).As(serviceType);
+
         }
+
+        public void Register(Type serviceType)
+        {
+            Holder.ContainerBuilder.RegisterType(serviceType);
+        }
+
         public void Register<TService, TImplementation>(List<ObjectContainerParameter> parameters)
             where TService : class
             where TImplementation : class, TService
@@ -125,7 +149,7 @@ namespace CommonFrameWork.Extensions.Autofac
                 autofacparametersList.Add(new NamedParameter(p.Name, p.Value));
             });
 
-         return   IContainer.Resolve<TService>(autofacparametersList);
+            return IContainer.Resolve<TService>(autofacparametersList);
         }
 
 

@@ -40,7 +40,7 @@ namespace TestOrm
             configSource.Config.Application.LogProvider = "CommonFrameWork.Extensions.Log4Net.Log4NetLoggerFactory,CommonFrameWork.Extensions.Log4Net";
 
 
-            var application = AppRuntime.Create(configSource);
+            var application = AppRuntime.Create(configSource).ConfigMessageDispatcher();
 
             //application.Starting += Add;
             //application.Started += Add2;
